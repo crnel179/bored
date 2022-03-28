@@ -1,0 +1,11 @@
+* {
+    background-color: #fa8072;
+    font-weight: 700;
+    position: relative;
+    margin: 20px auto;
+    width: 50%;
+    border: 3px solid #ffbd33;
+    border-radius: 20%;
+    padding: 50px;
+    align-items: center;
+}
