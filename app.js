@@ -4,8 +4,10 @@ class BoredAPI {
     }
 }
 
+// assigning the API link to a variable
 const activities = new BoredAPI('https://www.boredapi.com/api/activity');
 
+// fetching and displaying the 1st random activity
 const boredHeaderAPI = async () => {
     const response = await fetch(activities.url);
     const data = await response.json();
@@ -20,6 +22,7 @@ const boredHeaderAPI = async () => {
     return api_display;
 };
 
+// fetching and displaying the 2nd random activity
 const boredParagraphAPI = async () => {
     const response = await fetch(activities.url);
     const data = await response.json();
